@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with Array </title>
+ 
+</head>
+<body>
+    <script>
+  
+             function func() {    
+
+                var fav = ["Biratnagar", "Lalitpur", "Patan", "Kathmandu", "Pokhara","Palpa"];
+                
+                document.write("<b>List of place :<b>" + fav + "</br>");
+
+                fav.push("Saptari", "Dang");
+          
+               document.write("<strong>Added place is </strong>:" + fav + "<br>");
+
+              var spliced = fav.splice(3,1);
+
+            document.write("<b>Removed place: </b>" + spliced  + "<br>");
+            document.write("<b>Remaining place:</b> " + fav + "<br>");
+            document.write("<b>Length of remaining place:</b> " + fav.length + "<br>");
+         }
+       func();
+
+       </script>
+
+</body>
+</html>
